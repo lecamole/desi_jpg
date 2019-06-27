@@ -1,0 +1,14 @@
+# IPython log file
+
+import sdss_jpg
+sdss_jpg.simg(ra=16.809,dec= 0.793 )
+sdss_jpg.simg(ra=16.847,dec= 0.672)
+sdss_jpg.simg(ra=45.274,dec= 0.756)
+get_ipython().run_line_magic('logstart', '')
+get_ipython().run_line_magic('logoff', '')
+import sdss_jpg
+sdss_jpg.simg(ra=45.274,dec= 0.756)
+get_ipython().run_line_magic('reset', '')
+import sdss_jpg
+sdss_jpg.simg(ra=45.274,dec= 0.756)
+get_ipython().run_line_magic('logoff', '')

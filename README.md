@@ -1,11 +1,8 @@
 
-## Get SDSS image
-
+## GetSDSS
 
 code for downloading jpg images of SDSS data.
 
-
-=====================================
 
 This is a modified version of this [code](https://github.com/rkeisler/sdss_jpg)
 

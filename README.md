@@ -26,7 +26,7 @@ GetSDSS.simg(ra=37.228,dec=0.37, scale=0.396, width=512, height=512,
     savename=None, DR=14, init_download=True,show=True)
 ```
 
-To download an entire file with coordinates:
+To download multiple images using a file with coordinates:
 ```
 GetSDSS.DownFile(file, scale=0.396, width=512, height=512, DR=14, show=False):
 ```

@@ -35,7 +35,7 @@ def DownFile(file, scale=0.396, width=512, height=512, show=False):
     if not os.path.exists(dir):
         os.makedirs(dir)
 
-    name, ra, dec = np.genfromtxt(file, delimiter="", unpack=True,dtype="U")
+    name, ra, dec = np.genfromtxt(file, delimiter="", unpack=True, comments="#", dtype="U")
 
     name = name.astype(str)
     ra = ra.astype(float)

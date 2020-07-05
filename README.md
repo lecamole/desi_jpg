@@ -1,5 +1,5 @@
 
-## GetSDSS
+## GetDESI
 
 code for downloading jpg images of DESI data.
 
